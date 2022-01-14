@@ -292,8 +292,9 @@
   
 .main__content h1 {
     font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background: #414141;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #2d2f3025);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #7777776e);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -484,8 +485,9 @@
 }
 
 .services h1{
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff0844 0%, #ff5e2d 100%);
+    background: #414141;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #2d2f3025);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #7777776e);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
